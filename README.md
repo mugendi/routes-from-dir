@@ -4,15 +4,19 @@ Load multiple Express Js routes by traversing a directory tree and adding a pref
 
 ```javascript
 
-    // require
-    let routesLoader = require('routes-loader);
+// require
+let routesLoader = require('routes-loader);
 
-    // load
-	routesLoader({
-        app, //instance of express()
-        prefix: '/api', // prefix to apply to all routes
-        dir:"/path/to/api/dir" //directory where these paths are
-    });
+// load
+routesLoader({
+    //instance of express()
+    app:app, 
+    // prefix to apply to all routes
+    prefix: "/api", 
+    //directory where these paths are
+    dir:"/path/to/api/dir" 
+});
+
 ```
 
 **NOTE:**

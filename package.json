@@ -1,6 +1,6 @@
 {
   "name": "routes-from-dir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dynamically load Express routes from a directory adding route prefixes where needed",
   "keywords": [
     "express",
