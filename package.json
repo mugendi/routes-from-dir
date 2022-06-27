@@ -1,0 +1,24 @@
+{
+  "name": "routes-from-dir",
+  "version": "1.0.0",
+  "description": "Dynamically load Express routes from a directory adding route prefixes where needed",
+  "keywords": [
+    "express",
+    "routes",
+    "loader"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Mugendi <ngurumugz@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugendi/routes-from-dir.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mugendi/routes-from-dir/issues"
+  },
+  "homepage": "https://github.com/mugendi/routes-from-dir#readme"
+}
